@@ -11,8 +11,9 @@ export class AppComponent {
 
   loadedFeature = 'recipe';
 
-  onNavigate(feature: string) {
-    this.loadedFeature = feature;
+  // onNavigate(eve: any) {
+  //   this.loadedFeature = eve;
+  //   console.log('allu eve = ', eve)
 
-  }
+  // }
 }
