@@ -7,13 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Recipe-App';
-
-  loadedFeature = 'recipe';
-
-  // onNavigate(eve: any) {
-  //   this.loadedFeature = eve;
-  //   console.log('allu eve = ', eve)
-
-  // }
+  title = 'Recipe-App';  
 }
