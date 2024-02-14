@@ -12,6 +12,8 @@ recipes: any;
 
  @Input()
   recipe!: Recipe;
+  @Input()
+  index!: number;
  ngOnInit() {
   
 }
